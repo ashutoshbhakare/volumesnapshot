@@ -1,0 +1,5 @@
+create database test;
+use test;
+CREATE TABLE Customers (  customer_id int,first_name varchar(50), last_name varchar(50),age int,country varchar(10));
+INSERT INTO Customers(customer_id, first_name, last_name, age, country) VALUES (1, 'Ashutosh', 'Bhakare', 22, 'IND');
+INSERT INTO Customers(customer_id, first_name, last_name, age, country) VALUES (2, 'Pavan', 'Wankhade', 12, 'IND');
